@@ -17,3 +17,4 @@
 * Therefore, the input task set must be in 𝐶<𝐷<𝑇. 
 * Moreover, execution time, deadline and periods of each task must not be same. 
 * It is also assumed that all the periods must be in periodically.
+$e^{i \pi} = -1$
