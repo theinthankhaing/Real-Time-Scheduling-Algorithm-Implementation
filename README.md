@@ -17,4 +17,17 @@
 * Therefore, the input task set must be in 𝐶<𝐷<𝑇. 
 * Moreover, execution time, deadline and periods of each task must not be same. 
 * It is also assumed that all the periods must be in periodically.
-$e^{i \pi} = -1$
+* In this work, for both algorithms, the resource of the system is assumed as battery, so it is asked from the user as constant value.
+* The battery units must be reasonable with the task sets which are going to be scheduled. The user must put energy units between 20 units and 50 units.
+
+## Algorithm Description
+
+* ES - DVFS from paper, [Energy efficient scheduler of aperiodic jobs for real-time embedded systems](https://www.researchgate.net/publication/304191974_Energy_efficient_scheduler_of_aperiodic_jobs_for_real-time_embedded_systems)
+* DGAET from paper, [Energy-efficient scheduling with reliability guarantee in embedded real-time systems](https://www.sciencedirect.com/science/article/abs/pii/S2210537916300075)
+
+## Simulation Result for ES - DVFS
+
+![image](https://user-images.githubusercontent.com/50255936/110669185-0b3f1e80-8207-11eb-9630-4ec2dea991df.png)
+
+## Simulation Result for DGAET
+![image](https://user-images.githubusercontent.com/50255936/110669279-227e0c00-8207-11eb-8c1e-863611a645f5.png)
