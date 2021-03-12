@@ -4,6 +4,7 @@
 
 * Implemented Dynamic Voltage and Frequency Scaling (ES - DVFS) and Dynamic Global Energy - Efficent Scheduling Based on the Actual Execution Time (DGAET) by reading papers
 * Compared these two algorithms
+* Programming Language - Python
 
 ## Environment SetUp
 
